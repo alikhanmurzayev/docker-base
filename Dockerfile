@@ -10,7 +10,6 @@ ENV LANG C.UTF-8
 RUN apt-get update && apt-get install -y \
     python3.7-dev \
     python3-pip \
-    uwsgi-plugin-python
 
 # Essential tools and xvfb
 RUN apt-get update && apt-get install -y \
